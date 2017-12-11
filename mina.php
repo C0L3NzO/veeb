@@ -44,3 +44,19 @@ echo 'kas $var1 === $var3? - '.$tulemus;
 echo "<br>";
 $tulemus = $var1 != $var4;
 echo 'kas $var1 != $var4? - '.$tulemus;
+echo '<hr>';
+
+$a = 2; $b = 5;
+$c = $a++;
+$d = $b--;
+echo "a = ".$a.
+    "; b = ".$b.
+    "; c = ".$c.
+    "; d = ".$d.'<br>';
+$a = 2; $b = 5;
+$c = ++$a;
+$d = --$b;
+echo "a = ".$a.
+    "; b = ".$b.
+    "; c = ".$c.
+    "; d = ".$d.'<br>';
