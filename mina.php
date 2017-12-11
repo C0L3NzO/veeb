@@ -32,3 +32,15 @@ echo $var5." - ".gettype($var5)."<br>";
 echo $var6." - ".gettype($var6)."<br>";
 echo $var7." - ".gettype($var7)."<br>";
 echo $var8." - ".gettype($var8)."<br>";
+
+$tulemus = $var1 == $var2;
+echo 'kas $var1 == $var2? - '.$tulemus;
+echo "<br>";
+$tulemus = $var1 == $var3;
+echo 'kas $var1 == $var3? - '.$tulemus;
+echo "<br>";
+$tulemus = $var1 === $var3;
+echo 'kas $var1 === $var3? - '.$tulemus;
+echo "<br>";
+$tulemus = $var1 != $var4;
+echo 'kas $var1 != $var4? - '.$tulemus;
