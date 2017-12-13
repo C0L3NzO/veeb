@@ -60,3 +60,10 @@ echo "a = ".$a.
     "; b = ".$b.
     "; c = ".$c.
     "; d = ".$d.'<br>';
+
+$s = "5";
+$s++;
+echo $s."<br>";
+
+define("NUMBER", 5);
+echo NUMBER."<br>";

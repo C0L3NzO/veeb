@@ -1,0 +1,10 @@
+<?php
+$ilm= 'sajab';
+if($ilm=='sajab'){
+    $tuju="halb";
+} else {
+    $tuju="hea";
+}
+echo "Väljas ".$ilm<br>;
+echo "Minul on tuju väärtus ".$tuju<br>;
+?>
