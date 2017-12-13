@@ -7,4 +7,5 @@ if($ilm=='sajab'){
 }
 echo "Väljas ".$ilm<br>;
 echo "Minul on tuju väärtus ".$tuju<br>;
-?>
+//
+$vanus=rand(1,100);
