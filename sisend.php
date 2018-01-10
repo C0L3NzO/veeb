@@ -6,16 +6,6 @@
  * Time: 14:23
  */
 
-function vorm(){
-    echo '
-        <form action="salvestus.php" method="post">
-            Eesnimi: <input type="text" name="eesnimi">
-            <br>
-            Perekonnanimi: <input type="text" name="perekonnanimi">
-            <br>
-            <input type="submit" value="salvesta">
-        </form>
-    ';
-}
+require_once "fnk.php";
 
 vorm();
