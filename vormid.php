@@ -46,7 +46,8 @@
 function valjastaVorm(){
     echo '
         <form action="'.$_SERVER[PHP_SELF].'" method="post">
-            number: <input type="text" name="number">
+            <input type="text" name="number">
+            <input type="hidden" name="tulebVagaSuur" value="tulebVagaSuur">
         <form>
     ';
 }
@@ -56,9 +57,9 @@ valjastaVorm();
 echo "<br>";
 echo $nr;
 a($nr);
-function a($nr)
-{
-    $tulebVagaSuur = 0;
+function a($nr){
+    $tulebVagaSuur = $_POST["tulebVagaSuur"];
+    $tulebVagaSuur = isset($tulebVagaSuur) ? ++$tulebVagaSuur : 0;
     $number = ($_POST["number"]);
     if ($nr > $number) {
         echo "Pakkusid väiksema";
