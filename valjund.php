@@ -8,4 +8,4 @@
 
 require_once "fnk.php";
 
-loeFailist();
+loeFailist("andmed.txt");
