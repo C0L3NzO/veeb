@@ -11,4 +11,5 @@ require_once "fnk.php";
 
 andmeteKontroll();
 
-salvestaFaili("andmed.txt");
+//salvestaFaili("andmed.txt");
+//salvestaAeg("andmed.txt", ajaTootlus($_POST["paev"], $_POST["kuu"], $_POST["aasta"]));
