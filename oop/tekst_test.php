@@ -9,7 +9,9 @@
 require_once "tekst.php";
 //loome teksti objekti
 $minuTekst = new tekst("Tere maailm");
-//väljastame objekti sisu test kujul
+//väljastan objekti sisu test kujul
 echo '<pre>';
 print_r($minuTekst);
 echo '<pre>';
+//väljastan objekti korralikul kujul
+$minuTekst->prindiTekst();

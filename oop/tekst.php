@@ -30,5 +30,7 @@ class tekst
     function maaraTekst($sonad){
         $this->sonad = $sonad;
     }
-
+    function prindiTekst(){
+        echo $this->sonad."<br>";
+    }
 }
