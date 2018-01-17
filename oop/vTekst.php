@@ -10,5 +10,16 @@ require_once "tekst.php";
 
 class vTekst extends tekst
 {
+    var $tekstiVarv = "";
 
+    public function __construct($sonad = "", $varv = "")
+    {
+        parent::__construct($sonad);
+        $this->maaraVarv($varv);
+    }
+
+    function maaraVarv($varv){
+        $this->tekstiVarv = $varv;
+
+    }
 }

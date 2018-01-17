@@ -27,3 +27,14 @@ print_r($varvituTekst);
 echo '<pre>';
 //väljastan objekti korralikul kujul
 $varvituTekst->prindiTekst();
+
+echo "<hr>";
+
+//loome teksti objekti
+$roosaTekst = new vTekst("Roosa tekst", "#ff0066");
+//väljastan objekti sisu test kujul
+echo '<pre>';
+print_r($roosaTekst);
+echo '<pre>';
+//väljastan objekti korralikul kujul
+$roosaTekst->prindiTekst();
