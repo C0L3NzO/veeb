@@ -12,7 +12,6 @@ class tabel
     var $pealkirjad = array();
     var $tabeliSisu = array();
     var $tulpadeArv;
-
     /**
      * tabel constructor.
      * @param array $pealkirjad
@@ -35,5 +34,19 @@ class tabel
         }
         array_push($this->tabeliSisu, $jarjestatudRida);
         return true;
+    }
+    function prindiTabel(){
+        echo "<pre>";
+        foreach($this->pealkirjad as $pealkiri){
+            echo "<b>".$pealkiri."</b>"," ";
+        }
+        echo "\n";
+        foreach ($this->tabeliSisu as $reaelemendid){
+            foreach ($reaelemendid as $reaElement){
+                echo $reaElement." ";
+            }
+            echo "\n";
+        }
+        echo "</pre>";
     }
 }
